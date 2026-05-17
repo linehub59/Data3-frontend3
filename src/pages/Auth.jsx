@@ -72,10 +72,10 @@ function Auth() {
         });
 
       }
-      */
+
     setSuccess(true);
     navigate("/bundles")
-
+      */
 
 
   };
