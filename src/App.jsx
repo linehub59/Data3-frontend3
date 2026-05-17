@@ -5,16 +5,14 @@ import {
   Link
 } from 'react-router-dom'
 
-import Splash from './pages/Splash'
-//import Auth from './pages/Auth'
-import Home from './pages/Home'
+import Auth from './pages/Auth'
+
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Splash />} />
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Auth />} />
       </Routes>
     </BrowserRouter>
   )
