@@ -29,10 +29,10 @@ function Auth() {
     setSuccess] = useState(false);
   const navigate = useNavigate();
 
-  const handleGoogleLogin = async () => {
+  const handleGoogleLogin = () => {
 
-    try {
-      /*
+
+    /*
       const result =
       await signInWithPopup(
         auth,
@@ -73,14 +73,10 @@ function Auth() {
 
       }
       */
-      setSuccess(true);
-      navigate("/bundles")
-
-    } catch (error) {
-      alert(error)
+    setSuccess(true);
+    navigate("/bundles")
 
 
-    }
 
   };
 
