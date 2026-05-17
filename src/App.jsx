@@ -7,14 +7,14 @@ import {
 
 import Splash from './pages/Splash'
 //import Auth from './pages/Auth'
-import Bundles from './pages/Bundles'
+import Home from './pages/Home'
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Splash />} />
-        <Route path="/bundles" element={<Bundles />} />
+        <Route path="/home" element={<Home />} />
       </Routes>
     </BrowserRouter>
   )

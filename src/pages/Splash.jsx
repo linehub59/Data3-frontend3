@@ -25,7 +25,7 @@ function Splash() {
 
   const handleCreate = () => {
 
-    navigate("/auth");
+    navigate("/home");
 
   };
 
