@@ -19,7 +19,7 @@ import {
   auth,
   googleProvider,
   db
-} from "../config/Firebase.js";
+} from "../config/Firebase";
 import {
   useNavigate
 } from "react-router-dom";
