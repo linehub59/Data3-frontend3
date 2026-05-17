@@ -30,7 +30,7 @@ function Auth() {
   const navigate = useNavigate();
 
   const handleGoogleLogin = async () => {
-    /*
+
     try {
 
       const result =
@@ -80,7 +80,7 @@ function Auth() {
 
 
     }
-  */
+
   };
 
 
