@@ -32,13 +32,14 @@ function Auth() {
   const handleGoogleLogin = async () => {
 
     try {
-
+      /*
       const result =
       await signInWithPopup(
         auth,
         googleProvider
       );
-      const user = await result.user;
+
+      const user = result.user;
 
 
       // USER REFERENCE
@@ -71,12 +72,12 @@ function Auth() {
         });
 
       }
-
+      */
       setSuccess(true);
       navigate("/bundles")
 
     } catch (error) {
-      console.log(error)
+      alert(error)
 
 
     }
