@@ -7,7 +7,7 @@ import {
 
 import Splash from './pages/Splash'
 
-//import Auth from './pages/Auth'
+import Auth from './pages/Auth'
 //import Bundles from './pages/Bundles'
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Splash />} />
+        <Route path="/auth" element={<Auth />} />
       </Routes>
     </BrowserRouter>
   )
