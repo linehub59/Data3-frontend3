@@ -6,8 +6,9 @@ import {
 } from 'react-router-dom'
 
 import Splash from './pages/Splash'
-import Auth from './pages/Auth'
-import Bundles from './pages/Bundles'
+
+//import Auth from './pages/Auth'
+//import Bundles from './pages/Bundles'
 
 function App() {
   return (
@@ -16,8 +17,6 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Splash />} />
-        <Route path="/auth" element={<Auth />} />
-        <Route path="/bundles" element={<Bundles />} />
       </Routes>
     </BrowserRouter>
   )
