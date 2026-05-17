@@ -14,13 +14,13 @@ import {
   getDoc,
   serverTimestamp
 } from "firebase/firestore";
-/*
+
 import {
-auth,
-googleProvider,
-db
+  auth,
+  googleProvider,
+  db
 } from "../config/Firebase";
-*/
+
 import {
   useNavigate
 } from "react-router-dom";
